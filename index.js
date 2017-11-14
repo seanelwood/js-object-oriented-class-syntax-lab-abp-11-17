@@ -2,7 +2,7 @@ class BoardMember {
   constructor (name, homeState, training) {
     this.name = name;
     this.homeState = homeState;
-    this.training = training;    
+    this.training = training;
   }
   veto() {
     return 'No, I must disagree';
@@ -17,7 +17,7 @@ class BoardMember {
     return 'You will see great things from Scuber.';
   }
   sayHi() {
-    return `Hi, my name is ${this.name}. I am from ${this.homestate}, and I was trained in ${this.training}.`;  
+    return `Hi, my name is ${name}. I am from ${homestate}, and I was trained in ${training}.`;
   }
 }
 
@@ -31,18 +31,18 @@ class BoardMember {
 //     this.name = name;
 //     this.email = email;
 //   }
-//  
+//
 //   sayHello() {
 //     console.log(`Hello, my name is ${this.name}`);
 //   }
 // }
-//  
-//  
+//
+//
 // class Teacher extends User {
 //   sayHello(){
 //     super.sayHello()
 //     console.log('hello')
 //   }
 // }
-//  
+//
 // tom.sayHello()
